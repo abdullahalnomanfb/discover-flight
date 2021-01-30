@@ -59,3 +59,9 @@ function getInputNumber(bookingValue) {
     return bookingInputNumber;
 }
 
+
+function formAlert() {
+    
+ document.getElementById("form").style.display="none";
+ alert("Thank you! Your registration has been successful.");
+}
